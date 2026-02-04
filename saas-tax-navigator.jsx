@@ -15,8 +15,8 @@ const STATES = [
     classification: "No state sales tax",
     nexus: "No state-level nexus (local varies)",
     notes: "No state sales tax. Some local jurisdictions (Juneau, Wasilla, Fairbanks North Star Borough, etc.) impose local sales taxes up to 7.5%. SaaS treatment at the local level varies by municipality and is often unclear. If billing a client in Alaska, verify whether the specific municipality taxes SaaS.",
-    lookupUrl: "https://tax.alaska.gov/programs/programs/index.aspx?60620",
-    lookupTip: "Alaska has no state sales tax, but check local rates by municipality. The Alaska Remote Seller Sales Tax Commission manages remote seller compliance for participating jurisdictions.",
+    lookupUrl: "https://alaska.ttr.services/",
+    lookupTip: "Use the Alaska Remote Seller Sales Tax Commission (ARSSTC) lookup tool to check local rates by address or municipality. Not all jurisdictions participate in ARSSTC; contact municipalities directly if needed.",
     localComplexity: "medium"
   },
   {
@@ -339,8 +339,8 @@ const STATES = [
     classification: "No sales tax",
     nexus: "N/A — no sales tax",
     notes: "No general sales tax at any level. Oregon has a Corporate Activity Tax (CAT) on businesses with $1M+ in Oregon commercial activity, but this is not a sales tax charged to buyers.",
-    lookupUrl: "https://www.oregon.gov/dor/",
-    lookupTip: "No sales tax — nothing to look up.",
+    lookupUrl: "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+    lookupTip: "No sales tax — nothing to look up. Oregon DOR page confirms no general sales or use tax.",
     localComplexity: "none"
   },
   {
