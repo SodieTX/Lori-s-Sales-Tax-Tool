@@ -33,8 +33,8 @@ const STATES = [
     classification: "Specified digital products",
     nexus: "$100K or 200 transactions",
     notes: "SaaS taxable as specified digital products. Total combined rates can exceed 11.5% in some jurisdictions. County and city rates stack.",
-    lookupUrl: "https://www.tax-rates.org/arkansas/sales-tax-calculator",
-    lookupTip: "Search by city or county name. Arkansas DFA also publishes rate tables — check dfa.arkansas.gov for the official source. Rates change quarterly in some jurisdictions.",
+    lookupUrl: "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/sales-use-tax/local-tax-lookup-tools/",
+    lookupTip: "Use the Arkansas DFA Local Tax Lookup Tools. Enter street address or ZIP code to find combined state, county, and city sales tax rates. Rates change quarterly in some jurisdictions.",
     localComplexity: "high"
   },
   {
